@@ -1,0 +1,80 @@
+html {
+  background-color: white;
+  font-family: helvetica;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 65px;
+  text-align: left;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+li {
+  list-style: none;
+  font-style: oblique;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.kaylin {
+  background-color: ;
+  position: absolute;
+  width: 435px;
+  top: 30px;
+  left: 50px;
+}
+
+.about {
+  background-color: ;
+  position: absolute;
+  width: 435px;
+  bottom: 50px;
+  left: 50px;
+}
+
+.aboutde {
+  font-size: 16px;
+  text-align: left;
+  margin: 0px;
+}
+
+.recentwork {
+  background-color: ;
+  position: absolute;
+  width: 170px;
+  top: 50px;
+  left: 880px;
+  margin: 0px;
+}
+
+.other {
+  background-color: ;
+  position: absolute;
+  width: 270px;
+  top: 50px;
+  right: 50px;
+  margin: 0px;
+}
+
+.rightaligned {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  color: red;
+}
