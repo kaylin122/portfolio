@@ -8,6 +8,7 @@ h1 {
   font-size: 65px;
   text-align: left;
   margin: 0px;
+  z-index: 2;
 }
 
 h2 {
@@ -17,17 +18,20 @@ h2 {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
+  z-index: 2;
 }
 
 li {
   list-style: none;
   font-style: oblique;
   margin-bottom: 10px;
+  z-index: 2;
 }
 
 a {
   text-decoration: none;
   color: #1a1a1a;
+  z-index: 2;
 }
 
 .kaylin {
@@ -36,6 +40,7 @@ a {
   width: 435px;
   top: 30px;
   left: 50px;
+  z-index: 2;
 }
 
 .about {
@@ -44,12 +49,14 @@ a {
   width: 435px;
   bottom: 50px;
   left: 50px;
+  z-index: 2;
 }
 
 .aboutde {
   font-size: 16px;
   text-align: left;
   margin: 0px;
+  z-index: 2;
 }
 
 .recentwork {
@@ -59,6 +66,7 @@ a {
   top: 50px;
   left: 880px;
   margin: 0px;
+  z-index: 2;
 }
 
 .other {
@@ -68,13 +76,46 @@ a {
   top: 50px;
   right: 50px;
   margin: 0px;
+  z-index: 2;
 }
 
 .rightaligned {
   text-align: right;
   margin-bottom: 20px;
+  z-index: 3;
 }
 
 a:hover {
   color: red;
+}
+
+.face1 {
+  position: fixed;
+  z-index: 1;
+  top: 50px;
+  width: 800px;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 3;
+}
+
+.dropdown-content:hover {
+  background-color: none;
+}
+
+.dropdown:hover .dropdown-content {
+  background-color: none;
+  display: block;
+  position: relative;
 }
