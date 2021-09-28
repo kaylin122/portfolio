@@ -119,3 +119,12 @@ a:hover {
   display: block;
   position: relative;
 }
+
+.bottom-rightaligned {
+  position: absolute;
+  width: 270px;
+  bottom: 50px;
+  right: 50px;
+  margin: 0px;
+  z-index: 2;
+}
