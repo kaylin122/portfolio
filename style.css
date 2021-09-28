@@ -89,11 +89,12 @@ a:hover {
   color: red;
 }
 
-.face1 {
+.face10 {
   position: fixed;
   z-index: 1;
-  top: 50px;
-  width: 800px;
+  top: 170px;
+  left: 100px;
+  width: 600px;
 }
 
 .dropdown {
