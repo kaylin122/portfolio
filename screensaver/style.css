@@ -1,11 +1,4 @@
-.background {
-  width: cover;
-  opacity: 0;
-  animation: scroll 20s infinite;
-  position: fixed;
-  justify-content: center;
-  z-index: 1;
-}
+
 
 .face4 {
   position: fixed;
