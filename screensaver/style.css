@@ -1,5 +1,10 @@
-html {
-  background-color: white;
+.background {
+  width: cover;
+  opacity: 0;
+  animation: scroll 20s infinite;
+  position: fixed;
+  justify-content: center;
+  z-index: 1;
 }
 
 .face4 {
@@ -8,6 +13,7 @@ html {
   top: 20px;
   right: 100px;
   animation: move3 10s infinite;
+  z-index: 2;
 }
 
 .face4c {
@@ -17,6 +23,7 @@ html {
   top: 20px;
   right: 100px;
   animation: move3 10s infinite;
+  z-index: 2;
 }
 
 .face6 {
@@ -25,6 +32,7 @@ html {
   top: 400px;
   left: 100px;
   animation: move2 9s infinite;
+  z-index: 2;
 }
 
 .face6c {
@@ -34,6 +42,7 @@ html {
   top: 400px;
   left: 100px;
   animation: move2 9s infinite;
+  z-index: 2;
 }
 
 .face7 {
@@ -42,6 +51,7 @@ html {
   top: -40px;
   left: 420px;
   animation: move 15s infinite;
+  z-index: 2;
 }
 
 .face7c {
@@ -51,6 +61,7 @@ html {
   top: -40px;
   left: 420px;
   animation: move 15s infinite;
+  z-index: 2;
 }
 
 .face8 {
@@ -59,6 +70,7 @@ html {
   top: 200px;
   left: 450px;
   animation: large 12s infinite;
+  z-index: 2;
 }
 
 .face8c {
@@ -68,6 +80,7 @@ html {
   top: 200px;
   left: 450px;
   animation: large 12s infinite;
+  z-index: 2;
 }
 
 .face10 {
@@ -76,6 +89,7 @@ html {
   top: 550px;
   left: 500px;
   animation: large 11s infinite;
+  z-index: 2;
 }
 
 .face10c {
@@ -85,6 +99,7 @@ html {
   top: 550px;
   left: 500px;
   animation: large 11s infinite;
+  z-index: 2;
 }
 
 .face11 {
@@ -93,6 +108,7 @@ html {
   top: 300px;
   left: 870px;
   animation: large 9s infinite;
+  z-index: 2;
 }
 .face11c {
   position: fixed;
@@ -101,6 +117,7 @@ html {
   top: 300px;
   left: 870px;
   animation: large 9s infinite;
+  z-index: 2;
 }
 
 .face10c {
@@ -110,6 +127,7 @@ html {
   top: 550px;
   left: 500px;
   animation: large 11s infinite;
+  z-index: 2;
 }
 
 .face13 {
@@ -118,6 +136,7 @@ html {
   top: 30px;
   left: 40px;
   animation: large 8s infinite;
+  z-index: 2;
 }
 
 .face13c {
@@ -127,6 +146,7 @@ html {
   top: 30px;
   left: 40px;
   animation: large 8s infinite;
+  z-index: 2;
 }
 
 .face4c:hover {
@@ -214,5 +234,17 @@ html {
   }
   100% {
     top: 250px;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate(-400px);
+  }
+  50% {
+    transform: translate(-100px);
+  }
+  100% {
+    transform: translate(-400px);
   }
 }
