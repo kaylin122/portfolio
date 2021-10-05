@@ -1,0 +1,30 @@
+html {
+  font-family: "helvetica";
+}
+
+.headings {
+  padding-left: 10%;
+  padding-bottom: 120px;
+  padding-top: 15px;
+}
+
+h1 {
+  font-size: 65px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 45px;
+  font-style: italic;
+}
+
+p {
+  font-size: 17px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.work {
+  height: 600px;
+  margin-bottom: 200px;
+}

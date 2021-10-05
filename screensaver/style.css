@@ -1,0 +1,218 @@
+html {
+  background-color: white;
+}
+
+.face4 {
+  position: fixed;
+  width: 340px;
+  top: 20px;
+  right: 100px;
+  animation: move3 10s infinite;
+}
+
+.face4c {
+  position: fixed;
+  opacity: 0;
+  width: 340px;
+  top: 20px;
+  right: 100px;
+  animation: move3 10s infinite;
+}
+
+.face6 {
+  position: fixed;
+  width: 400px;
+  top: 400px;
+  left: 100px;
+  animation: move2 9s infinite;
+}
+
+.face6c {
+  position: fixed;
+  opacity: 0;
+  width: 400px;
+  top: 400px;
+  left: 100px;
+  animation: move2 9s infinite;
+}
+
+.face7 {
+  position: fixed;
+  width: 400px;
+  top: -40px;
+  left: 420px;
+  animation: move 15s infinite;
+}
+
+.face7c {
+  position: fixed;
+  opacity: 0;
+  width: 400px;
+  top: -40px;
+  left: 420px;
+  animation: move 15s infinite;
+}
+
+.face8 {
+  position: fixed;
+  width: 400px;
+  top: 200px;
+  left: 450px;
+  animation: large 12s infinite;
+}
+
+.face8c {
+  position: fixed;
+  opacity: 0;
+  width: 400px;
+  top: 200px;
+  left: 450px;
+  animation: large 12s infinite;
+}
+
+.face10 {
+  position: fixed;
+  width: 400px;
+  top: 550px;
+  left: 500px;
+  animation: large 11s infinite;
+}
+
+.face10c {
+  position: fixed;
+  opacity: 0;
+  width: 400px;
+  top: 550px;
+  left: 500px;
+  animation: large 11s infinite;
+}
+
+.face11 {
+  position: fixed;
+  width: 400px;
+  top: 300px;
+  left: 870px;
+  animation: large 9s infinite;
+}
+.face11c {
+  position: fixed;
+  opacity: 0;
+  width: 400px;
+  top: 300px;
+  left: 870px;
+  animation: large 9s infinite;
+}
+
+.face10c {
+  position: fixed;
+  opacity: 0;
+  width: 400px;
+  top: 550px;
+  left: 500px;
+  animation: large 11s infinite;
+}
+
+.face13 {
+  position: fixed;
+  width: 400px;
+  top: 30px;
+  left: 40px;
+  animation: large 8s infinite;
+}
+
+.face13c {
+  position: fixed;
+  opacity: 0;
+  width: 400px;
+  top: 30px;
+  left: 40px;
+  animation: large 8s infinite;
+}
+
+.face4c:hover {
+  opacity: 1;
+}
+
+.face6c:hover {
+  opacity: 1;
+}
+
+.face7c:hover {
+  opacity: 1;
+}
+
+.face8c:hover {
+  opacity: 1;
+}
+
+.face10c:hover {
+  opacity: 1;
+}
+
+.face11c:hover {
+  opacity: 1;
+}
+
+.face13c:hover {
+  opacity: 1;
+}
+
+@keyframes large {
+  0% {
+    transform: scale(.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(.5);
+  }
+}
+
+@keyframes move {
+  0% {
+    left: 450px;
+  }
+  50% {
+    left: 1200px;
+  }
+  100% {
+    left: 420px;
+  }
+}
+
+@keyframes scale2 {
+  0% {
+    transform: scale(.5);
+  }
+  50% {
+    transform: scale(4);
+  }
+  100% {
+    transform: scale(.5);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    top: 400px;
+  }
+  50% {
+    top: 500px;
+  }
+  100% {
+    top: 400px;
+  }
+}
+
+@keyframes move3 {
+  0% {
+    top: 250px;
+  }
+  50% {
+    top: 530px;
+  }
+  100% {
+    top: 250px;
+  }
+}
