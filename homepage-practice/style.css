@@ -21,13 +21,20 @@ html {
 
 .top1 {
   /*background: blue;*/
-  height: 70%;
+  height: 100%;
   padding: 20px;
 }
 
 .bottom1 {
   /*background: purple;*/
+  position: relative;
   padding: 20px;
+}
+
+.humans {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .humans {
@@ -70,7 +77,7 @@ html {
 .top3 {
   /*background: rgb(142, 98, 108);*/
   padding: 20px;
-  height: 87.5%;
+  height: 100%;
 }
 
 .watch, .vcu, .other {
@@ -79,7 +86,15 @@ html {
 }
 
 .bottom3 {
+  position: relative;
   text-align: right;
+  padding: 20px;
+}
+
+#datetime {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   padding: 20px;
 }
 
