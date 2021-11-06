@@ -25,6 +25,10 @@ html {
   padding: 20px;
 }
 
+.look-at {
+  padding-top: 40px;
+}
+
 .bottom1 {
   /*background: purple;*/
   position: relative;
