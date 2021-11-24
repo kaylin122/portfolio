@@ -1,36 +1,44 @@
-html {
-  background-color: rgb(240, 113, 219);
-  background-size: cover;
-}
-
 .intro {
   display: flex;
   flex-direction: column;
   grid-row-gap: 30px;
-  position: absolute;
-  left: 600px;
-  top: 200px;
-  width: 500px;
-  color: rgb(244, 244, 244);
+  color: rgb(201, 196, 196);
   font-size: 30px;
+  margin: auto;
+  width: 500px;
+  top: 200px;
+  position: relative;
+  z-index: 2;
 }
 
-.red-circle {
-  width: 10px;
-  height: 10px;
-  background-color: red;
-  position: absolute;
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(208, 208, 208);
+  position: fixed;
   right: 25px;
   top: 25px;
-  border-radius: 10px;
+  z-index: 2;
 }
 
-.blue-circle {
-  width: 10px;
-  height: 10px;
-  background-color: blue;
-  position: absolute;
-  right: 25px;
-  top: 50px;
-  border-radius: 10px;
+.swirl_15 {
+  background-color: white;
+  box-shadow: 0 0 10px rgb(208, 208, 208);
+  width: 1220px;
+  height: 7px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  animation: spin 15s linear 0s infinite normal;
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
