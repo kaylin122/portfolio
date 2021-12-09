@@ -1,6 +1,13 @@
 html {
-  background-image: url(images1/poster_images6.jpg);
-  background-size: cover;
+  background-image: url(only_background/only_background_6.jpg);
+  background-size: 100vw;
+}
+
+img {
+  width: 600px;
+  top: 130px;
+  left: 200px;
+  position: fixed;
 }
 
 .square {

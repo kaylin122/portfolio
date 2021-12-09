@@ -1,6 +1,6 @@
 html {
-  background-image: url(images1/poster_images9.jpg);
-  background-size: cover;
+  background-image: url(only_background/only_background_9.jpg);
+  background-size: 100vw;
 }
 
 .square {
@@ -25,6 +25,12 @@ html {
   top: 25px;
   z-index: 2;
   border-radius: 50%;
+}
+
+img {
+  width: 100vw;
+  top: 115px;
+  position: fixed;
 }
 
 .square:hover {
