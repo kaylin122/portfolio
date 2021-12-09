@@ -6,7 +6,8 @@
   font-size: 30px;
   margin: auto;
   width: 800px;
-  top: 200px;
+  top: 100px;
+  left: 200px;
   position: relative;
   z-index: 2;
 }
@@ -49,6 +50,7 @@
   width: 1220px;
   height: 7px;
   margin: auto;
+  top: 200px;
   position: relative;
   z-index: 1;
   animation: spin 15s linear 0s infinite normal;
