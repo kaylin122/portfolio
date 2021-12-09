@@ -2,50 +2,13 @@ html {
   font-family: "made dillan";
 }
 
-/*.title {
-  font-size: 60px;
-  color: red;
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(208, 208, 208);
   position: fixed;
-  left: 100px;
-  top: 90px;
-}
-
-.ppl {
-  font-size: 30px;
-  color: rgb(255, 190, 64);
-  position: fixed;
-  top: 400px;
-} */
-
-/* .column {
-  position: fixed;
-  left: 100px;
-  right: 100px;
-  top: 90px;
-} */
-
-.ppl {
-  font-size: 90px;
-  color: rgb(255, 190, 64);
-  position: fixed;
-  left: 100px;
-  top: 90px;
-  right: 100px;
-}
-
-.wanthppy {
-  font-size: 60px;
-  color: rgb(255, 190, 64);
-  position: fixed;
-  right: 100px;
-  top: 300px;
-  width: 500px;
-}
-
-.nothppy {
-  font-size: 40px;
-  color: red;
-  position: fixed;
-  right: 100px;
-  bottom: 90px;
+  right: 25px;
+  top: 25px;
+  z-index: 2;
 }

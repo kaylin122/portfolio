@@ -2,19 +2,13 @@ html {
   font-family: "made dillan";
 }
 
-.plants {
-  font-size: 40px;
-  color: rgb(255, 190, 64);
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(208, 208, 208);
   position: fixed;
-  left: 100px;
-  top: 90px;
-  right: 100px;
-}
-
-.nothppy {
-  font-size: 40px;
-  color: red;
-  position: fixed;
-  right: 100px;
-  bottom: 90px;
+  right: 25px;
+  top: 25px;
+  z-index: 2;
 }
