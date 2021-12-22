@@ -21,6 +21,16 @@ h2 {
   z-index: 2;
 }
 
+.recent {
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  z-index: 2;
+}
+
 li {
   list-style: none;
   font-style: oblique;
@@ -64,11 +74,20 @@ a {
   position: absolute;
   width: 170px;
   top: 50px;
-  left: 880px;
+  right: 600px;
   margin: 0px;
   z-index: 2;
 }
 
+/* .recentwork {
+  background-color: ;
+  position: absolute;
+  width: 170px;
+  top: 50px;
+  left: 880px;
+  margin: 0px;
+  z-index: 2;
+} */
 .other {
   background-color: ;
   position: absolute;
@@ -128,4 +147,94 @@ a:hover {
   right: 50px;
   margin: 0px;
   z-index: 2;
+}
+
+@media screen and (max-width: 1400px) {
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    left: 70px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .recentwork {
+    position: absolute;
+    width: 170px;
+    top: 400px;
+    right: 50px;
+    margin: 0px;
+    z-index: 2;
+    text-align: right;
+  }
+
+  .recent {
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    right: 50px;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    left: 50px;
+    width: 500px;
+  }
+
+  .bottom-rightaligned {
+    position: absolute;
+    width: 270px;
+    bottom: 200px;
+    right: 50px;
+    margin: 0px;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .kaylin {
+    position: absolute;
+    width: 35px;
+    top: 30px;
+    left: 50px;
+    z-index: 2;
+  }
+
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 270px;
+    left: 50px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 270px;
+    left: 30px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 270px;
+    left: 30px;
+    width: 270px;
+  }
 }
