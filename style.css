@@ -238,3 +238,34 @@ a:hover {
     width: 270px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 270px;
+    left: 30px;
+    width: 170px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  li {
+    font-size: 10px;
+  }
+
+  .recent {
+    font-size: 14px;
+  }
+
+  .aboutde {
+    font-size: 10px;
+    width: 300px;
+  }
+}
