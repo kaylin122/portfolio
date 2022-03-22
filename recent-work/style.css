@@ -9,6 +9,10 @@ body {
   height: 100vh;
 }
 
+.recent {
+  color: red;
+}
+
 .top_banner {
   /* background-color: red; */
   display: flex;
@@ -18,14 +22,18 @@ body {
   border-bottom: 4px;
   border-bottom-color: black;
   border-bottom-style: solid;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .top_left {
   /* background-color: yellow; */
   display: flex;
   flex-direction: row;
-  width: 33%;
+  width: 32%;
   align-items: center;
+  padding-right: 7.3%;
+  padding-left: 2.5%;
 }
 
 .marquee {
@@ -52,6 +60,7 @@ body {
   display: flex;
   flex-direction: row;
   height: 40%;
+  align-self: center;
   /* background-color: pink; */
 }
 
@@ -59,39 +68,40 @@ body {
   font-size: 60px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: right;
   height: 40%;
+  align-self: center;
   /* background-color: orange; */
 }
 
 .images_top {
-  width: 67%;
   align-self: center;
-  justify-content: left;
+  justify-content: space-between;
   display: flex;
   /* background-color: blue; */
   flex-direction: row;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 25px;
+  grid-column-gap: 30px;
+  padding-top: 13.5px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .images_bottom {
-  width: 100%;
   align-self: center;
-  justify-content: left;
   display: flex;
   /* background-color: purple; */
   flex-direction: row;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 25px;
+  justify-content: space-between;
+  grid-column-gap: 30px;
+  padding-bottom: 13.5px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 img {
-  height: 300px;
-  margin: 20px;
+  height: 330px;
+  width: 330px;
+  display: flex;
+  align-self: center;
   border-style: solid;
   border-color: black;
   border-width: 3px;
@@ -146,6 +156,8 @@ h2 {
   border-top: 4px;
   border-top-color: black;
   border-top-style: solid;
+  padding-left: 6.7%;
+  padding-right: 6.7%;
 }
 
 /* @media screen and (max-width: 800px) {
