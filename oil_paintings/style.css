@@ -1,0 +1,60 @@
+html {
+  font-family: "helvetica";
+}
+
+h1 {
+  font-size: 65px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 17px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.title {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 120px;
+  padding-top: 15px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 80px;
+}
+
+img {
+  width: 800px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 10%;
+  padding-right: 10%
+}
+
+.smol {
+  width: 140px;
+}
