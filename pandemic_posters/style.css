@@ -44,6 +44,7 @@ font-size: 22px
   justify-content: center;
   flex-wrap: wrap;
   gap: 70px;
+  padding-bottom: 50px;
 }
 
 img:hover {
