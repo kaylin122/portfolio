@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <title>
+    Using Caraousels
+  </title>
+</head>
+
+<body>
+
+  <div class="main-carousel">
+    <div class="cell"><img src="img/posters/calm.jpg"></div>
+    <div class="cell"><img src="img/posters/workspace.jpg"></div>
+    <div class="cell"><img src="img/posters/percieved.jpg"></div>
+    <div class="cell"><img src="img/posters/reminiscing.jpg"></div>
+    <div class="cell"><img src="img/posters/caffeine.jpg"></div>
+    <div class="cell"><img src="img/posters/social_anxiety.jpg"></div>
+    <div class="cell"><img src="img/posters/alumni_panel_discussion.jpg"></div>
+    <div class="cell"><img src="img/posters/478_breathing.jpg"></div>
+    <div class="cell"><img src="img/posters/caffeine.jpg"></div>
+  </div>
+
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script type="text/javascript">
+    $('.main-carousel').flickity({
+    // options
+    cellAlign: 'left',
+    wrapAround: true,
+    freeScroll: true
+  });
+</script>
+</body>
+
+</html>
