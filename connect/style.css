@@ -1,7 +1,7 @@
 html {
   font-family: "helvetica";
-  color: black;
-  background: white;
+  background-color: rgb(227, 224, 224);
+  color: rgb(48, 51, 56);
 }
 
 p {
