@@ -1,0 +1,271 @@
+html {
+  background-color: white;
+  font-family: helvetica;
+  color: #1a1a1a;
+}
+
+h1 {
+  font-size: 65px;
+  text-align: left;
+  margin: 0px;
+  z-index: 2;
+}
+
+h2 {
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  z-index: 2;
+}
+
+.recent {
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  z-index: 2;
+}
+
+li {
+  list-style: none;
+  font-style: oblique;
+  margin-bottom: 10px;
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+  z-index: 2;
+}
+
+.kaylin {
+  background-color: ;
+  position: absolute;
+  width: 435px;
+  top: 30px;
+  left: 50px;
+  z-index: 2;
+}
+
+.about {
+  background-color: ;
+  position: absolute;
+  width: 435px;
+  bottom: 50px;
+  left: 50px;
+  z-index: 2;
+}
+
+.aboutde {
+  font-size: 16px;
+  text-align: left;
+  margin: 0px;
+  z-index: 2;
+}
+
+.recentwork {
+  background-color: ;
+  position: absolute;
+  width: 170px;
+  top: 50px;
+  right: 600px;
+  margin: 0px;
+  z-index: 2;
+}
+
+/* .recentwork {
+  background-color: ;
+  position: absolute;
+  width: 170px;
+  top: 50px;
+  left: 880px;
+  margin: 0px;
+  z-index: 2;
+} */
+.other {
+  background-color: ;
+  position: absolute;
+  width: 270px;
+  top: 50px;
+  right: 50px;
+  margin: 0px;
+  z-index: 2;
+}
+
+.rightaligned {
+  text-align: right;
+  margin-bottom: 20px;
+  z-index: 3;
+}
+
+a:hover {
+  color: red;
+}
+
+.face10 {
+  position: fixed;
+  z-index: 1;
+  top: 170px;
+  left: 100px;
+  width: 600px;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 3;
+}
+
+.dropdown-content:hover {
+  background-color: none;
+}
+
+.dropdown:hover .dropdown-content {
+  background-color: none;
+  display: block;
+  position: relative;
+}
+
+.bottom-rightaligned {
+  position: absolute;
+  width: 270px;
+  bottom: 50px;
+  right: 50px;
+  margin: 0px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1400px) {
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    left: 70px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .recentwork {
+    position: absolute;
+    width: 170px;
+    top: 400px;
+    right: 50px;
+    margin: 0px;
+    z-index: 2;
+    text-align: right;
+  }
+
+  .recent {
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    right: 50px;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 200px;
+    left: 50px;
+    width: 500px;
+  }
+
+  .bottom-rightaligned {
+    position: absolute;
+    width: 270px;
+    bottom: 200px;
+    right: 50px;
+    margin: 0px;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .kaylin {
+    position: absolute;
+    width: 35px;
+    top: 30px;
+    left: 50px;
+    z-index: 2;
+  }
+
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 270px;
+    left: 50px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 270px;
+    left: 30px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 270px;
+    left: 30px;
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .face10 {
+    position: fixed;
+    z-index: 1;
+    top: 270px;
+    left: 30px;
+    width: 170px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  li {
+    font-size: 10px;
+  }
+
+  .recent {
+    font-size: 14px;
+  }
+
+  .aboutde {
+    font-size: 10px;
+    width: 300px;
+  }
+}
