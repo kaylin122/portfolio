@@ -54,5 +54,33 @@ img {
   border-radius: 25px;
   margin: 50px;
   margin-top: 130px;
+}
+
+/*larger screens come first, smaller screens need to be under larger screens*/
+@media screen and (max-width: 1400px) {
+
+  .pandemicposters {
+      flex-direction: column;
+  }
+
+  .back {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+}
+
+/*larger screens come first, smaller screens need to be under larger screens*/
+@media screen and (max-width: 700px) {
+  img {
+    width: 30vw;
+  }
+
+  .centered {
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-between;
+  }
 
 }

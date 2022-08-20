@@ -271,3 +271,30 @@ h2 {
   display: flex;
   align-self: center;
 }
+
+/*larger screens come first, smaller screens need to be under larger screens*/
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 50%;
+  }
+
+  .bio {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  h2 {
+    padding-left: 0px;
+  }
+
+  .resume_contact {
+    padding: 0px;
+  }
+
+}

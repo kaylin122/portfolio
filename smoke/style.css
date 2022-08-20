@@ -58,3 +58,15 @@ img {
 .smol {
   width: 140px;
 }
+
+/*larger screens come first, smaller screens need to be under larger screens*/
+@media screen and (max-width: 1000px) {
+
+
+  img {
+    width: 80vw;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+}
