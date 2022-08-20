@@ -31,6 +31,15 @@ body {
   justify-content: space-between;
 }
 
+a {
+  color: rgb(48, 51, 56);
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
 h1 {
   padding-right: 10px;
 }
@@ -64,7 +73,11 @@ h2 {
   width: 100vw;
   justify-content: space-between;
   padding: 3%;
-  padding-bottom: 0;
+  padding-top: 0%;
+}
+
+.about {
+  font-size: 1em;
 }
 
 .blurb {
@@ -73,13 +86,17 @@ h2 {
   justify-content: center;
   grid-row-gap: 0%;
   width: 50vw;
-  font-size: 2.5em;
+  font-size: 2.3vw;
   padding: 10%;
 }
 
 .portrait {
   max-width: 50vw;
   padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .kaylin {
@@ -121,7 +138,7 @@ h2 {
   display: flex;
   align-self: center;
   padding: 1%;
-  padding-top: 15%;
+  padding-top: 5%;
   padding-bottom: 0;
   font-size: 2.5rem;
 }
@@ -134,19 +151,31 @@ h2 {
   align-self: center;
 }
 
-.work_gallery {
+.work_gallery a {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 4%;
 }
 
 .work_gallery img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   max-width: 35%;
   margin: 2%;
   margin-bottom: 7%;
   box-shadow: 0 0 15px rgb(208, 208, 208);
   border-radius: 30px;
+  gap: 4%;
+  flex-wrap: wrap;
+}
+
+.long {
+  max-width: 35%;
+}
+
+.hello {
+  display: flex;
+  justify-content: center;
 }
 
 .heading {
@@ -158,9 +187,10 @@ h2 {
 
 .pandemic_posters {
   width: 50%;
-  font-size: 3em;
+  font-size: 3.5em;
   display: flex;
   text-align: center;
+  justify-content: center;
   padding-left: 6%;
   padding-right: 6%;
 }
@@ -176,6 +206,24 @@ h2 {
   width: 78vw;
   box-shadow: 0 0 15px rgb(208, 208, 208);
   border-radius: 30px;
+}
+
+
+.large_imgg {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  position: relative;
+  gap: 8%;
+}
+
+.large_imgg img {
+  display: flex;
+  width: 35vw;
+  box-shadow: 0 0 15px rgb(208, 208, 208);
+  border-radius: 30px;
+  position: relative;
+
 }
 
 .main-carousel {
@@ -199,4 +247,27 @@ h2 {
   object-fit: cover;
   border-radius: 30px;
   box-shadow: 0 0 15px rgb(208, 208, 208);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 10vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  color: rgb(102, 102, 102);
+}
+
+.line2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 2px;
+  width: 600px;
+  background-color: black;
+  display: flex;
+  align-self: center;
 }

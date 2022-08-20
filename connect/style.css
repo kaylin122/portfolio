@@ -27,25 +27,4 @@ a:hover {
   padding: 8%;
   padding-top: 8%;
 }
-
-img {
-  height: 300px;
-  border-color: black;
-  border-style: solid;
-}
-
-.profile {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 10%;
-
-}
-
-.bioo {
-  font-size: 20px;
-}
-
-.bio {
-  width: 20%;
-}
+\

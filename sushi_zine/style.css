@@ -5,6 +5,7 @@ html {
 h1 {
   font-size: 65px;
   margin-bottom: 0px;
+  width: 900px;
 }
 
 p {
@@ -28,6 +29,18 @@ a:hover {
   padding-right: 10%;
   padding-bottom: 120px;
   padding-top: 15px;
+}
+
+.descriptions {
+
+}
+
+.description1 {
+  width: 300px;
+}
+
+.description2 {
+  width: 500px;
 }
 
 .centered {
@@ -57,4 +70,17 @@ img {
 
 .smol {
   width: 140px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 10%;
+}
+
+.six {
+  width: 600px;
 }
