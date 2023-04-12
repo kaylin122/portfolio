@@ -1,0 +1,103 @@
+html {
+  font-family: "helvetica";
+  background-color: rgb(227, 224, 224);
+  color: rgb(48, 51, 56);
+}
+
+h1 {
+  font-size: 65px;
+  margin-bottom: 0px;
+  width: 900px;
+}
+
+p {
+  font-size: 17px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.title {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 120px;
+  padding-top: 15px;
+}
+
+.descriptions {
+
+}
+
+.description1 {
+  width: 300px;
+}
+
+.description2 {
+  width: 500px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 80px;
+}
+
+img {
+  width: 800px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 10%;
+  padding-right: 10%
+}
+
+.smol {
+  width: 140px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 10%;
+}
+
+.six {
+  width: 600px;
+}
+
+/*larger screens come first, smaller screens need to be under larger screens*/
+@media screen and (max-width: 1000px) {
+
+  h1 {
+    width: 100%;
+  }
+
+  img {
+    width: 80vw;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+}
